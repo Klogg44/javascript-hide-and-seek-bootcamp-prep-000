@@ -13,3 +13,7 @@ function increaseRankBy (n) {
     rlist[i].innerHTML = rlist[i].innerHTML + parseInt(n);
   }
 }
+
+function helloThere() {
+  console.console.log("Hello");
+}
