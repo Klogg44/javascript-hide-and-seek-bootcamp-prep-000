@@ -19,7 +19,7 @@ function deepestChild () {
   childslist = document.querySelectorAll('div#grand-node');
 
   for (let i = 0; i < childslist; i++) {
-    childchild = childslist[i].innerHTML;
+    let childchild = childslist[i].innerHTML;
     console.log(childchild);
   }
   return null;
