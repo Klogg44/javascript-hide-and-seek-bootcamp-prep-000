@@ -15,5 +15,5 @@ function increaseRankBy (n) {
 }
 
 function helloThere() {
-  console.console.log("Hello");
+  console.log("Hello");
 }
