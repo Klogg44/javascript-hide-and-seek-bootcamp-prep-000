@@ -20,7 +20,7 @@ function deepestChild () {
 
   for (let i = 0; i < childs.length; i++) {
     if (childs[i].querySelectorAll('div').length === 0) {
-      return childs[i].innerHTML;
+      return childs[i];
     };
   }
   return null;
